@@ -33,3 +33,11 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/sidebar";
+
+[data-dark-mode] body .offcanvas .nav-link:hover, [data-dark-mode] body .offcanvas .btn-link:hover {
+    color: rgb(193, 60, 12);
+}
+
+.header-bar {
+    border-image-source: linear-gradient(90deg, #a41212, #d64308 50%, #d51414);
+}
